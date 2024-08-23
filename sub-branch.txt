@@ -1,0 +1,4 @@
+pull: 	git pull origin main
+create new branch:
+	git checkout -b sub-branch
+	git push origin sub-branch
