@@ -2,3 +2,9 @@ pull: 	git pull origin main
 create new branch:
 	git checkout -b sub-branch
 	git push origin sub-branch
+merge: git checkout main
+	git pull origin main
+	git merge sub-branch
+	git add <file>
+	git commit
+	git push origin main
